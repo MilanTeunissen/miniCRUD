@@ -5,15 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Asap&display=swap"
-      rel="stylesheet"
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Asap&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <title>Pizza Tent</title>
 </head>
 <body>
     <main>
-        <?php echo("Sluipschutters is bea"); ?> 
+        <h1>Sluipschutter is bea</h1>
    </main>
 </body>
 </html>
