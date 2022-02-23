@@ -29,36 +29,33 @@ body {
 
 /*Navigatie balk*/
 .site-header {
-  background-color: #ffffff;
   display: flex;
-  flex-direction: row;
+  width: 100%;
+  height: auto;
   justify-content: center;
-  align-items: center;
+}
+
+.nav {
+  background-color: #ffffff;
   margin-top: 10px;
-  margin-left: 250px;
-  padding-top: 0;
-  padding-bottom: 0;
   padding: 20px;
   outline: 2px solid black;
   max-width: 1000px;
   width: 90%;
-
   transition: all 0.2s ease-in-out;
   opacity: 0.5;
-  filter: blur(0px);
 }
-
-.site-header:hover {
+.nav:hover {
   opacity: 1;
   filter: blur(0px);
 }
 
-.nav {
-  width: 50%;
-}
-
 .nav_wrapper {
   display: flex;
+}
+
+.nav_wrapper:focus {
+  outline: 0 !important;
 }
 
 nav ul {
@@ -73,4 +70,13 @@ nav ul li {
 
 nav ul li a {
   font-size: 25px;
+}
+
+@media only screen and (max-width: 650px) {
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
