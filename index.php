@@ -13,7 +13,7 @@
     />
     <title>Pizza Tent</title>
   </head>
-  <body>
+  <body background="images/pizza.jpg">
     <header class="site-header">
       <nav class="nav">
         <ul class="nav__wrapper" clas>
@@ -26,7 +26,7 @@
       </nav>
     </header>
     <main>
-      <h1>Sluipschutter is bea</h1>
+      <div class="base"></div>
     </main>
   </body>
 </html>
