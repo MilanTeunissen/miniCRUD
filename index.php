@@ -17,7 +17,7 @@
     <header class="site-header">
       <nav class="nav">
         <ul class="nav__wrapper" clas>
-          <li class="nav__item"><a href="menu.php">Menu</a></li>
+          <li class="nav__item"><a href="index.php">Menu</a></li>
           <li class="nav__item"><a href="bestellen.php">Bestellen</a></li>
           <li class="nav__item"><a href="reseveren.php">Reseveren</a></li>
           <li class="nav__item"><a href="over.php">Over ons</a></li>
@@ -30,5 +30,6 @@
         <div class="menu"></div>
       </div>
     </main>
+    <footer></footer>
   </body>
 </html>
