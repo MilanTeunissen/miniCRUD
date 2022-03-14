@@ -23,16 +23,14 @@ body {
 }
 
 .nav {
-  background-color: #ffffff;
+  background-color: #000000;
   padding: 20px;
   outline: 2px solid black;
   width: 100%;
   transition: all 0.2s ease-in-out;
-  opacity: 0.5;
-}
-.nav:hover {
-  opacity: 1;
-  filter: blur(0px);
+  opacity: 0.75;
+  position: fixed;
+  z-index: 20;
 }
 
 .nav_wrapper {
@@ -41,7 +39,7 @@ body {
 
 .nav__item a {
   text-decoration: none;
-  color: #000000;
+  color: #ffffff;
   transition: all 0.2s ease-in-out;
 }
 .nav__item:hover {
@@ -65,7 +63,16 @@ nav ul li a {
   font-size: 25px;
 }
 
+li img {
+  max-width: 60px;
+  max-height: 60px;
+}
+
 @media only screen and (max-width: 650px) {
+  li img {
+    position: relative;
+    left: 10px;
+  }
   nav ul {
     list-style-type: none;
     display: flex;
@@ -77,31 +84,52 @@ nav ul li a {
 /*basis*/
 main {
   display: flex;
-  width: 100%;
   justify-content: center;
 }
 .base {
   position: relative;
   justify-content: center;
   display: flex;
-  width: 80%;
+  top: 110px;
+  width: 70%;
   margin: 10px;
   padding: 15px;
   background-color: #ffffff;
   opacity: 0.75;
 }
 
-.menu {
+.menu_items {
   height: 1300px;
   width: 75%;
   margin: 10px;
-  background-color: #000000;
-  opacity: 0.75;
+  display: flex;
+  justify-content: center;
+}
+
+.menu_item_1 {
+  height: 250px;
+  width: 80%;
+  background-color: #ff0000;
+  opacity: 1;
+}
+
+.menu_item_1_img {
+  max-height: 250px;
+  max-width: 60%;
+  width: 75%;
+}
+
+@media only screen and (max-width: 650px) {
+  .base {
+    top: 270px;
+  }
 }
 
 /*Footer*/
 footer {
+  position: relative;
   width: 100%;
+  top: 120px;
 }
 
 .footer-basic {
@@ -182,4 +210,10 @@ footer {
 iframe {
   max-width: 1400px;
   width: 100%;
+}
+
+@media only screen and (max-width: 650px) {
+  footer {
+    top: 300px;
+  }
 }

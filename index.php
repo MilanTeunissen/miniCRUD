@@ -21,6 +21,7 @@
     <header class="site-header">
       <nav class="nav">
         <ul class="nav__wrapper" clas>
+          <li class="nav__item"><img src="images/pizza_logo.jpg" alt="" /></li>
           <li class="nav__item"><a href="index.php">Menu</a></li>
           <li class="nav__item"><a href="bestellen.php">Bestellen</a></li>
           <li class="nav__item"><a href="reseveren.php">Reseveren</a></li>
@@ -31,7 +32,10 @@
     </header>
     <main>
       <div class="base">
-        <div class="menu"></div>
+        <div class="menu_items">
+          <img class="menu_item_1_img" src="images/pizza_placeholder.jpg" />
+          <div class="menu_item_1"></div>
+        </div>
       </div>
     </main>
     <footer>
@@ -41,7 +45,7 @@
           <div>
             <a
               target="”_blank”"
-              href="https://www.instagram.com/team.sev3n/"
+              href="https://www.instagram.com/"
               class="fa fa-instagram"
             ></a>
             <a
