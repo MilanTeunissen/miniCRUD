@@ -130,10 +130,10 @@ main {
   font-size: larger;
 }
 
-button {
-  color: #1d9af2;
-  background-color: #292d3e;
-  border: 1px solid #1d9af2;
+.cart {
+  background-color: #882322;
+  outline: 2px solid black;
+  margin-top: 2%;
   border-radius: 4px;
   padding: 0 15px;
   cursor: pointer;
@@ -141,7 +141,7 @@ button {
   font-size: 14px;
   transition: all 0.2s ease-in-out;
 }
-button:hover {
+.cart:hover {
   transform: scale(1.1);
 }
 
@@ -152,11 +152,6 @@ button:hover {
   color: white;
   background-color: #882322;
   outline: 3px solid black;
-  transition: all 0.2s ease-in-out;
-}
-
-.Menu:hover {
-  transform: scale(1.1);
 }
 
 @media only screen and (max-width: 1920px) {

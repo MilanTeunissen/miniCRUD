@@ -28,32 +28,37 @@
               <h1 class="Menu_head">Pizza peperoni</h1>
               <p class="Menu_text">Een heerlijke pizza met kaas en peperoni</p>  
               <p class="Menu_text">€6,50</p>  
-              <button>Grow</button >     
+              <button class="cart">Bestellen</button>     
             </div>
             <div class="Menu">       
               <h1 class="Menu_head">Pizza peperoni</h1>
               <p class="Menu_text">Een heerlijke pizza met kaas en peperoni</p>  
-              <p class="Menu_text">€6,50</p>       
+              <p class="Menu_text">€6,50</p>     
+              <button class="cart">Bestellen</button>       
             </div>
             <div class="Menu">                   
               <h1 class="Menu_head">Pizza peperoni</h1>
               <p class="Menu_text">Een heerlijke pizza met kaas en peperoni</p>  
-              <p class="Menu_text">€6,50</p>       
+              <p class="Menu_text">€6,50</p> 
+              <button class="cart">Bestellen</button>            
             </div>
             <div class="Menu">       
               <h1 class="Menu_head">Pizza peperoni</h1>
               <p class="Menu_text">Een heerlijke pizza met kaas en peperoni</p>  
-              <p class="Menu_text">€6,50</p>       
+              <p class="Menu_text">€6,50</p> 
+              <button class="cart">Bestellen</button>           
             </div>
             <div class="Menu">       
               <h1 class="Menu_head">Pizza peperoni</h1>
               <p class="Menu_text">Een heerlijke pizza met kaas en peperoni</p>  
-              <p class="Menu_text">€6,50</p>       
+              <p class="Menu_text">€6,50</p> 
+              <button class="cart">Bestellen</button>           
             </div>
             <div class="Menu">       
               <h1 class="Menu_head">Pizza peperoni</h1>
               <p class="Menu_text">Een heerlijke pizza met kaas en peperoni</p>  
-              <p class="Menu_text">€6,50</p>       
+              <p class="Menu_text">€6,50</p> 
+              <button class="cart">Bestellen</button>           
             </div>
         </div>  
         </div>
