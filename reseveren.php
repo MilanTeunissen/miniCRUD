@@ -18,50 +18,15 @@
     <title>Pizza Tent</title>
   </head>
   <body background="images/pizza.jpg">
-    <header class="site-header">
-      <nav class="nav">
-        <ul class="nav__wrapper" clas>
-        <li class="nav__item"><img src="images/pizza_logo.jpg" alt="" /></li>
-          <li class="nav__item"><a href="index.php">Menu</a></li>
-          <li class="nav__item"><a href="bestellen.php">Bestellen</a></li>
-          <li class="nav__item"><a href="reseveren.php">Reseveren</a></li>
-          <li class="nav__item"><a href="over.php">Over ons</a></li>
-          <li class="nav__item"><a href="contact.php">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
+    <?php
+      include ('includes/header.php');
+    ?>
     <main>
       <div class="base">
-        <div class="menu"></div>
       </div>
     </main>
-    <footer>
-      <div class="footer-basic">
-        <div class="social">
-          <i class="icon ion-social-instagram"></i>
-          <div>
-            <a
-              target="”_blank”"
-              href="https://www.instagram.com/"
-              class="fa fa-instagram"
-            ></a>
-            <a
-              target="”_blank”"
-              href="https://www.facebook.com/"
-              class="fa fa-facebook"
-            ></a>
-            <a
-              target="”_blank”"
-              href="https://www.twitter.com/"
-              class="fa fa-twitter"
-            ></a>
-          </div>
-        </div>
-        <p class="copyright">Milan Teunissen © 2022</p>
-      </div>
-
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
-    </footer>
+    <?php
+      include ('includes/footer.php');
+    ?>
   </body>
 </html>

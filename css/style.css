@@ -115,12 +115,12 @@ main {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-top: 5%;
+  margin-top: 2%;
 }
 
 .Menu_head {
   text-align: center;
-  margin-top: 10%;
+  margin-top: 2%;
   font-size: larger;
 }
 
@@ -128,6 +128,21 @@ main {
   text-align: center;
   margin-top: 5%;
   font-size: larger;
+}
+
+button {
+  color: #1d9af2;
+  background-color: #292d3e;
+  border: 1px solid #1d9af2;
+  border-radius: 4px;
+  padding: 0 15px;
+  cursor: pointer;
+  height: 32px;
+  font-size: 14px;
+  transition: all 0.2s ease-in-out;
+}
+button:hover {
+  transform: scale(1.1);
 }
 
 .Menu {
@@ -144,7 +159,7 @@ main {
   transform: scale(1.1);
 }
 
-@media only screen and (max-width: 1700px) {
+@media only screen and (max-width: 1920px) {
   .Menu_items {
     flex-wrap: wrap;
   }
@@ -215,6 +230,28 @@ main {
 }
 
 /*contact*/
+.contact_form {
+  margin: 10px;
+  height: auto;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 2%;
+}
+
+.contact {
+  height: 100px;
+  width: 100px;
+  background-color: #1b1717;
+}
+
+.contact_route {
+  height: 100px;
+  width: 100px;
+  background-color: #1b1717;
+}
 
 /*Footer*/
 footer {
