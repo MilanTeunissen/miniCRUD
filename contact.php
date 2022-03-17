@@ -21,7 +21,7 @@
     <header class="site-header">
       <nav class="nav">
         <ul class="nav__wrapper" clas>
-        <li class="nav__item"><img src="images/pizza_logo.jpg" alt="" /></li>
+          <li class="nav__item"><img src="images/pizza_logo.jpg" alt="" /></li>
           <li class="nav__item"><a href="index.php">Menu</a></li>
           <li class="nav__item"><a href="bestellen.php">Bestellen</a></li>
           <li class="nav__item"><a href="reseveren.php">Reseveren</a></li>
@@ -32,7 +32,6 @@
     </header>
     <main>
       <div class="base">
-        <div class="menu"></div>
       </div>
     </main>
     <footer>
@@ -47,8 +46,8 @@
             ></a>
             <a
               target="”_blank”"
-              href="https://www.facebook.com/"
-              class="fa fa-facebook"
+              href="https://www.linkedin.com/feed/"
+              class="fa fa-linkedin"
             ></a>
             <a
               target="”_blank”"

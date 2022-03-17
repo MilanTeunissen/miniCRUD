@@ -32,9 +32,32 @@
     </header>
     <main>
       <div class="base">
-        <div class="menu_items">
-          <img class="menu_item_1_img" src="images/pizza_placeholder.jpg" />
-          <div class="menu_item_1"></div>
+        <div class="Menu_items">
+          <div class="Menu">       
+              <img class="Menu_foto" src="images/pizza_placeholder.jpg">
+              <h1 class="Menu_head">Pizza peperoni</h1>
+              <p class="Menu_text">Een heerlijke pizza met kaas en peperoni</p>  
+              <p class="Menu_text">€6,50</p>       
+            </div>
+            <div class="Menu">       
+              <img class="Menu_foto" src="images/pizza_placeholder.jpg">
+              <h1 class="Menu_head">Pizza peperoni</h1>
+              <p class="Menu_text">Een heerlijke pizza met kaas en peperoni</p>  
+              <p class="Menu_text">€6,50</p>       
+            </div>
+            <div class="Menu">       
+              <img class="Menu_foto" src="images/pizza_placeholder.jpg">
+              <h1 class="Menu_head">Pizza peperoni</h1>
+              <p class="Menu_text">Een heerlijke pizza met kaas en peperoni</p>  
+              <p class="Menu_text">€6,50</p>       
+            </div>
+            <div class="Menu">       
+              <img class="Menu_foto" src="images/pizza_placeholder.jpg">
+              <h1 class="Menu_head">Pizza peperoni</h1>
+              <p class="Menu_text">Een heerlijke pizza met kaas en peperoni</p>  
+              <p class="Menu_text">€6,50</p>       
+            </div>
+        </div>  
         </div>
       </div>
     </main>
@@ -50,8 +73,8 @@
             ></a>
             <a
               target="”_blank”"
-              href="https://www.facebook.com/"
-              class="fa fa-facebook"
+              href="https://www.linkedin.com/feed/"
+              class="fa fa-linkedin"
             ></a>
             <a
               target="”_blank”"
