@@ -26,7 +26,14 @@
       <div class="contact_form">
           <div class="contact">   
             <h1>Zoek contact met ons!</h1>
-                     
+            <form class="form">
+            <p>Naam</p>
+          <input type="text" name="Naam" placeholder="Naam" />
+          <label>E-mail</label>
+          <input type="text" name="E-mail" placeholder="E-mail" />
+
+          <button type="submit">login</button>
+        </form>         
           </div>
           <div class="contact_route">  
           <div style="width: 100%"><iframe width="50%" height="250px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=nl&amp;q=Heyendaalseweg%2098,%206525%20EE%20Nijmegen+(technovium)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/sport-gps/">hiking gps</a></iframe></div>  

@@ -246,7 +246,11 @@ main {
   outline: 3px solid black;
 }
 
-
+.form {
+  display: flex;
+  justify-content: column;
+  margin: 2%;
+}
 
 .contact_route {
   height: 500px;
