@@ -24,9 +24,17 @@
     <main>
       <div class="base">
       <div class="contact_form">
-          <div class="contact">             
+          <div class="contact">   
+            <h1>Zoek contact met ons!</h1>
+                     
           </div>
-          <div class="contact_route">             
+          <div class="contact_route">  
+          <div style="width: 100%"><iframe width="50%" height="250px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=nl&amp;q=Heyendaalseweg%2098,%206525%20EE%20Nijmegen+(technovium)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/sport-gps/">hiking gps</a></iframe></div>  
+           <h1>Extra contact informatie</h1>   
+           <h2>Telefoon:</h2>
+           <p>+316853258</p> 
+           <h2>E-mail:</h2>
+           <p>CRUD@gmail.com</p>             
           </div>
       </div>
     </main>

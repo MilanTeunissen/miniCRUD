@@ -140,6 +140,7 @@ main {
   height: 32px;
   font-size: 14px;
   transition: all 0.2s ease-in-out;
+  border: none;
 }
 .cart:hover {
   transform: scale(1.1);
@@ -232,20 +233,54 @@ main {
   text-align: center;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-top: 2%;
 }
 
 .contact {
-  height: 100px;
-  width: 100px;
-  background-color: #1b1717;
+  height: 500px;
+  width: 40%;
+  padding: 2%;
+  color: white;
+  background-color: #882322;
+  outline: 3px solid black;
 }
 
+
+
 .contact_route {
-  height: 100px;
-  width: 100px;
-  background-color: #1b1717;
+  height: 500px;
+  width: 40%;
+  color: white;
+  background-color: #882322;
+  outline: 3px solid black;
+}
+
+@media only screen and (max-width: 950px) {
+  .contact_form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .contact {
+    width: 80%;
+  }
+
+  .contact_route {
+    margin-top: 10px;
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .contact {
+    width: 90%;
+  }
+
+  .contact_route {
+    width: 90%;
+  }
 }
 
 /*Footer*/
