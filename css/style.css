@@ -140,20 +140,23 @@ main {
 }
 
 .cart {
-  background-color: #882322;
+  align-items: center;
+  text-align: center;
+  background-color: #fafafa94;
   outline: 2px solid black;
   margin-top: 2%;
+  max-width: 40%;
+  max-height: 40%;
   border-radius: 4px;
   padding: 0 15px;
   cursor: pointer;
   height: 32px;
-  font-size: 14px;
   transition: all 0.2s ease-in-out;
   border: none;
 }
-
 .cart:hover {
   transform: scale(1.1);
+  background-color: #ffffff;
 }
 
 .Menu {
@@ -268,9 +271,13 @@ main .base .about .about_text p {
 }
 
 @media only screen and (max-width: 430px) {
-  .base .about {
+  .about {
     padding: 10px;
-    height: 1150px;
+    height: 900px;
+    width: 100%;
+  }
+
+  .base {
     width: 100%;
   }
 }
