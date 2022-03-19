@@ -15,7 +15,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <title>Pizza Tent</title>
+    <title>miniCRUD reseveren</title>
   </head>
   <body background="images/pizza.jpg">
     <?php
