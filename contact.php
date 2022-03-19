@@ -17,32 +17,45 @@
     />
     <title>Pizza Tent</title>
   </head>
-  <body background="images/pizza.jpg">
+  <body>
     <?php
       include ('includes/header.php');
     ?>
     <main>
       <div class="base">
-      <div class="contact_form">
-          <div class="contact">   
+        <div class="contact_form">
+          <div class="contact">
             <h1>Zoek contact met ons!</h1>
             <form class="form">
-            <p>Naam</p>
-          <input type="text" name="Naam" placeholder="Naam" />
-          <label>E-mail</label>
-          <input type="text" name="E-mail" placeholder="E-mail" />
-
-          <button type="submit">login</button>
-        </form>         
+              <label for="Naam">Naam</label>
+              <input type="text" name="onzin" placeholder="Naam" class="input_text"/>
+              <label>E-mail</label>
+              <input type="text" name="E-mail" placeholder="E-mail" class="input_text"/>
+              <label for="bericht">Uw bericht</label>
+              <textarea class="bericht" placeholder="Type hier uw bericht"></textarea>
+              <button class="submit" type="submit">Verstuur</button>
+            </form>
           </div>
-          <div class="contact_route">  
-          <div style="width: 100%"><iframe width="50%" height="250px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=nl&amp;q=Heyendaalseweg%2098,%206525%20EE%20Nijmegen+(technovium)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/sport-gps/">hiking gps</a></iframe></div>  
-           <h1>Extra contact informatie</h1>   
-           <h2>Telefoon:</h2>
-           <p>+316853258</p> 
-           <h2>E-mail:</h2>
-           <p>CRUD@gmail.com</p>             
+          <div class="contact_route">
+            <div style="width: 100%">
+              <iframe
+                width="50%"
+                height="250px"
+                frameborder="0"
+                scrolling="no"
+                marginheight="0"
+                marginwidth="0"
+                src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=nl&amp;q=Heyendaalseweg%2098,%206525%20EE%20Nijmegen+(technovium)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                ><a href="https://www.gps.ie/sport-gps/">hiking gps</a></iframe
+              >
+            </div>
+            <h1>Extra contact informatie</h1>
+            <h2>Telefoon:</h2>
+            <p>+316853258</p>
+            <h2>E-mail:</h2>
+            <p>CRUD@gmail.com</p>
           </div>
+        </div>
       </div>
     </main>
     <?php

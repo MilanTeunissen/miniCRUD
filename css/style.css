@@ -12,6 +12,7 @@ body {
   background-attachment: fixed;
   display: flex;
   flex-direction: column;
+  background-image: url("../images/pizza.jpg");
 }
 
 /*Navigatie balk*/
@@ -83,6 +84,7 @@ li img {
 }
 
 /*basis*/
+
 main {
   display: flex;
   justify-content: center;
@@ -98,6 +100,13 @@ main {
   margin: 10px;
   padding: 15px;
   background-color: #ffffffb6;
+}
+
+@media only screen and (max-width: 650px) {
+  .base {
+    top: 300px;
+    width: 80%;
+  }
 }
 
 /*menu page*/
@@ -142,6 +151,7 @@ main {
   transition: all 0.2s ease-in-out;
   border: none;
 }
+
 .cart:hover {
   transform: scale(1.1);
 }
@@ -165,6 +175,12 @@ main {
   }
 }
 
+@media only screen and (max-width: 950px) {
+  .Menu {
+    width: 90%;
+  }
+}
+
 @media only screen and (max-width: 850px) {
   .Menu_items {
     justify-content: center;
@@ -172,12 +188,6 @@ main {
 
   .Menu {
     width: 80%;
-  }
-}
-
-@media only screen and (max-width: 650px) {
-  .base {
-    top: 300px;
   }
 }
 
@@ -225,6 +235,46 @@ main {
   }
 }
 
+/*about page */
+
+.about {
+  height: 500px;
+  width: 70%;
+  margin: 30px;
+  padding: 15px;
+  text-align: center;
+  color: white;
+  background-color: #882322;
+  outline: 3px solid black;
+}
+
+.about_text {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 50px;
+  letter-spacing: 1px;
+}
+
+main .base .about .about_text p {
+  width: 80%;
+}
+
+@media only screen and (max-width: 1140px) {
+  .about {
+    height: 800px;
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .base .about {
+    padding: 10px;
+    height: 1150px;
+    width: 100%;
+  }
+}
+
 /*contact*/
 .contact_form {
   margin: 10px;
@@ -248,8 +298,46 @@ main {
 
 .form {
   display: flex;
-  justify-content: column;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 15px;
+  margin-bottom: 20px;
+}
+
+.input_text {
+  width: 70%;
+  height: 30px;
+}
+
+.bericht {
+  display: block;
   margin: 2%;
+  min-width: 70%;
+  max-width: 70%;
+  min-height: 100px;
+  max-height: 150px;
+  padding: 10px;
+  border: none;
+}
+
+.submit {
+  align-items: center;
+  text-align: center;
+  background-color: #fafafa94;
+  outline: 2px solid black;
+  margin-top: 2%;
+  max-width: 40%;
+  max-height: 40%;
+  border-radius: 4px;
+  padding: 0 15px;
+  cursor: pointer;
+  height: 32px;
+  transition: all 0.2s ease-in-out;
+  border: none;
+}
+.submit:hover {
+  transform: scale(1.1);
+  background-color: #ffffff;
 }
 
 .contact_route {
@@ -272,7 +360,7 @@ main {
   }
 
   .contact_route {
-    margin-top: 10px;
+    margin-top: 50px;
     width: 80%;
   }
 }

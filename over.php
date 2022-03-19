@@ -23,6 +23,12 @@
     ?>
     <main>
       <div class="base">
+        <div class="about">
+          <h1>Restaurant MiniCRUD</h1>
+          <div class="about_text">
+            <p>We are 6 students from ROC Technovium of which 3 come from the Software Developer course and the other 3 from the Media and Design course. In this project we have been given the assignment to program a Lego EV3 robot using the programming language Python. According to the assignment, the robot must be able to do a few things: follow a black line with curves in it, do something with a red line where there is an obstacle, and when there is a green dot on the ground, it must stop driving and make a noise to let people know it has stopped. fortunately, a lot of the documentation can be found online and there are many useful guides on YouTube.</p>
+          </div>
+        </div>
       </div>
     </main>
     <?php
