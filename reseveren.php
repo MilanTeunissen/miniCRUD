@@ -23,6 +23,14 @@
     ?>
     <main>
       <div class="base">
+        <div class="reseveren">
+          <h1>Resevering plaatsen</h1>
+          <form class="form_reseveren">
+            <input type="text" name="Naam" placeholder="Naam" class="">
+            <input type="Email" name="Email" placeholder="Email">
+            <input type="number" name="quantity" placeholder="Aantal" min="1" max="10">
+          </form>
+        </div>
       </div>
     </main>
     <?php

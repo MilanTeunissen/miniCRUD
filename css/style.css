@@ -104,7 +104,7 @@ main {
 
 @media only screen and (max-width: 650px) {
   .base {
-    top: 300px;
+    top: 250px;
     width: 80%;
   }
 }
@@ -143,7 +143,6 @@ main {
   align-items: center;
   text-align: center;
   background-color: #fafafa94;
-  outline: 2px solid black;
   margin-top: 2%;
   max-width: 40%;
   max-height: 40%;
@@ -238,11 +237,35 @@ main {
   }
 }
 
+/*reseveren page*/
+
+.reseveren {
+  height: 500px;
+  width: 80%;
+  max-width: 100%;
+  margin: 30px;
+  padding: 15px;
+  text-align: center;
+  color: white;
+  background-color: #882322;
+  outline: 3px solid black;
+}
+
+.form_reseveren {
+  margin-top: 10px;
+  padding: 15px;
+}
+
+.naam .Email .quantity {
+  height: 100px;
+}
+
 /*about page */
 
 .about {
   height: 500px;
-  width: 70%;
+  width: 80%;
+  max-width: 100%;
   margin: 30px;
   padding: 15px;
   text-align: center;
@@ -255,7 +278,7 @@ main {
   display: flex;
   justify-content: center;
   width: 100%;
-  margin-top: 50px;
+  margin-top: 20px;
   letter-spacing: 1px;
 }
 
@@ -265,16 +288,28 @@ main .base .about .about_text p {
 
 @media only screen and (max-width: 1140px) {
   .about {
+    height: 400px;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  .about {
+    height: 700px;
+  }
+}
+
+@media only screen and (max-width: 530px) {
+  .about {
     height: 800px;
     width: 90%;
   }
 }
 
-@media only screen and (max-width: 430px) {
+@media only screen and (max-width: 490px) {
   .about {
     padding: 10px;
     height: 900px;
-    width: 100%;
+    width: 90%;
   }
 
   .base {
@@ -331,7 +366,6 @@ main .base .about .about_text p {
   align-items: center;
   text-align: center;
   background-color: #fafafa94;
-  outline: 2px solid black;
   margin-top: 2%;
   max-width: 40%;
   max-height: 40%;
