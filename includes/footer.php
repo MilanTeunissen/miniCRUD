@@ -20,9 +20,9 @@
             ></a>
           </div>
         </div>
-        <div class="button_admin">
-          <button class="admin_login">login</button>
-        </div>
+        <a href="inlog.php" class="button_admin">
+          <button class="admin_login">Login</button>
+        </a>
         <p class="copyright">Milan Teunissen © 2022</p>
       </div>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
