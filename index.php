@@ -24,7 +24,10 @@
     <main>
       <div class="base">
         <div class="Menu_items">
+<<<<<<< HEAD
           <?php include("includes/menu.php") ?>
+=======
+>>>>>>> parent of 88f45fd (aan back-end gewerkt)
           <div class="Menu">       
               <h1 class="Menu_head">Pizza peperoni</h1>
               <p class="Menu_text">Een heerlijke pizza met kaas en peperoni</p>  

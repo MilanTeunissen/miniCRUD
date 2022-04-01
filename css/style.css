@@ -575,6 +575,7 @@ main .inlog_block button:hover {
     width: 80%;
   }
 }
+<<<<<<< HEAD
 
 /*admin pagina*/
 
@@ -586,6 +587,8 @@ th {
   text-align: left;
   padding: 8px;
 }
+=======
+>>>>>>> parent of 88f45fd (aan back-end gewerkt)
 
 /*Footer*/
 footer {
