@@ -15,21 +15,26 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <title>miniCRUD menu</title>
+    <title>miniCRUD Admin</title>
   </head>
   <body background="images/pizza.jpg">
-    <?php
-      include ('includes/header.php');
-    ?>
     <main>
-      <div class="base">
-        <div class="Menu_items">
-          <?php include("includes/menu.php") ?>
+        <div class="base">
+            <div class="admin_menu">
+            <table>
+                <tr>
+                    <th>gerecht</th>
+                    <th>bescrhijving</th>
+                    <th>Prijs</th>
+                </tr>
+                <tr>
+                    <td>test</td>
+                    <td>een lekkere pizza met kaas en peperoni</td>
+                    <td>testprijs</td>
+                </tr>
+            </table>
+            </div> 
         </div>
-      </div>
     </main>
-    <?php
-      include ('includes/footer.php');
-    ?>
   </body>
 </html>

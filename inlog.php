@@ -24,15 +24,18 @@
     <main>
       <div class="inlog_block">
             <H1>inloggen</H1>
-            <form class="form_inlog">
+            <form class="form_inlog" action="../actions/login.php" method="post">
                 <div class="inlog_style">
+                    <?php if(isset($_GET['error'])) { ?>
+                      <p class="error"> <?php echo $_GET['error']; ?></p>
+                    <?php } ?>
                     <p>Username</p>
                     <input type="text" name="username" placeholder="username">
                     <p>Wachtwoord</p>
                     <input type="text" name="wachtwoord" placeholder="wachtwoord">
-                </div>
+                </div>  
             </from>
-            <button>Login</button>
+          <button class="inlog_button">Login</button>
       </div>
     </main>
     <?php

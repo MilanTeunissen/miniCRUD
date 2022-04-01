@@ -15,10 +15,9 @@ $opt = [
 try 
 {
     $connect = new PDO($dsn, $user, $pass, $opt);
-    echo "Verbinding is gemaakt";
 }
-catch 
+catch (PDOException $e)
 {
     echo $e->getMessage();
-    die("Er is iets mis met de database/verbinding")
+    die("Er is iets mis met de database/verbinding");
 }
