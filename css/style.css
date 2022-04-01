@@ -540,7 +540,7 @@ main .inlog_block H1 {
   padding: 15px;
 }
 
-.inlog_button {
+main .inlog_block button {
   background-color: #fafafa94;
   margin-top: 2%;
   max-width: 40%;
@@ -552,7 +552,7 @@ main .inlog_block H1 {
   transition: all 0.2s ease-in-out;
   border: none;
 }
-.inlog_button:hover {
+main .inlog_block button:hover {
   transform: scale(1.1);
   background-color: #ffffff;
 }
@@ -575,6 +575,7 @@ main .inlog_block H1 {
     width: 80%;
   }
 }
+
 /*admin pagina*/
 
 td,
@@ -672,42 +673,14 @@ iframe {
   width: 100%;
 }
 
-.button_admin_login,
-.button_admin_logout {
+.button_admin {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: center;
   text-decoration: none;
-  margin: 10px;
   color: #ffffff;
 }
 
-.admin_login,
-.admin_logout {
-  background-color: #fafafa94;
-  width: 5%;
-  height: 30px;
-  border-radius: 4px;
-  cursor: pointer;
-  border: none;
-  transition: all 0.2s ease-in-out;
-}
-.admin_login:hover {
-  transform: scale(1.1);
-  background-color: #ffffff;
-}
-
-/*Footer adminpagina*/
-.admin_logout {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-decoration: none;
-  margin: 10px;
-  color: #ffffff;
-}
-
-.admin_page_logout {
+.admin_login {
   background-color: #fafafa94;
   width: 5%;
   height: 30px;

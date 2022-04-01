@@ -25,9 +25,47 @@
       <div class="base">
         <div class="Menu_items">
           <?php include("includes/menu.php") ?>
+          <div class="Menu">       
+              <h1 class="Menu_head">Pizza peperoni</h1>
+              <p class="Menu_text">Een heerlijke pizza met kaas en peperoni</p>  
+              <p class="Menu_text">€6,50</p>  
+              <button class="cart">Bestellen</button>     
+            </div>
+            <div class="Menu">       
+              <h1 class="Menu_head">Pizza tonijn</h1>
+              <p class="Menu_text">Een heerlijke pizza met kaas en tonijn</p>  
+              <p class="Menu_text">€6,50</p>     
+              <button class="cart">Bestellen</button>       
+            </div>
+            <div class="Menu">                   
+              <h1 class="Menu_head">Pizza hawaï</h1>
+              <p class="Menu_text">een minder lekkere pizza met kaas, ham en ananas</p>  
+              <p class="Menu_text">€6,50</p> 
+              <button class="cart">Bestellen</button>            
+            </div>
+            <div class="Menu">       
+              <h1 class="Menu_head">Pizza Shoarma</h1>
+              <p class="Menu_text">Een heerlijke pizza met kaas, Shoarma en knoflook saus</p>  
+              <p class="Menu_text">€6,50</p> 
+              <button class="cart">Bestellen</button>           
+            </div>
+            <div class="Menu">       
+              <h1 class="Menu_head">Pizza hete kip</h1>
+              <p class="Menu_text">Een heerlijke pizza met kaas, kip en pittig saus</p>  
+              <p class="Menu_text">€6,50</p> 
+              <button class="cart">Bestellen</button>           
+            </div>
+            <div class="Menu">       
+              <h1 class="Menu_head">Pizza margherita</h1>
+              <p class="Menu_text">Een heerlijke pizza met kaas</p>  
+              <p class="Menu_text">€6,50</p> 
+              <button class="cart">Bestellen</button>           
+            </div>
+        </div>  
         </div>
       </div>
     </main>
+
     <?php
       include ('includes/footer.php');
     ?>
