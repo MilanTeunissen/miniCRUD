@@ -578,6 +578,10 @@ main .inlog_block H1 {
 }
 /*admin pagina*/
 
+main .base .admin_menu table {
+  width: 80%;
+}
+
 td,
 th {
   border: 1px solid #000000;
@@ -673,8 +677,7 @@ iframe {
   width: 100%;
 }
 
-.button_admin_login,
-.button_admin_logout {
+.button_admin_login {
   display: flex;
   flex-direction: column;
   align-items: center;
