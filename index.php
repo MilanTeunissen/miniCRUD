@@ -25,7 +25,10 @@
       <div class="base">
         <div class="Menu_items">
 <<<<<<< HEAD
+<<<<<<< HEAD
           <?php include("includes/menu.php") ?>
+=======
+>>>>>>> parent of 88f45fd (aan back-end gewerkt)
 =======
 >>>>>>> parent of 88f45fd (aan back-end gewerkt)
           <div class="Menu">       
