@@ -25,9 +25,11 @@
       <div class="base">
         <div class="Menu_items">
           <?php include("includes/menu.php") ?>
-        </div>
+        </div>  
+
       </div>
     </main>
+
     <?php
       include ('includes/footer.php');
     ?>
