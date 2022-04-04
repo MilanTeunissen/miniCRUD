@@ -115,7 +115,7 @@ main {
   justify-content: center;
   display: flex;
   top: 110px;
-  height: 80%;
+  height: 100%;
   width: 70%;
   margin: 10px;
   padding: 15px;
@@ -579,7 +579,21 @@ main .inlog_block H1 {
 }
 /*admin pagina*/
 
-main .base .admin_menu table tr {
+.add-modify-delete-menu,
+.add-modify-delete-resevering {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+
+  margin: 5px;
+}
+
+main .base .add-modify-delete-menu button,
+main .base .add-modify-delete-resevering button {
+  border: 1px solid #000000;
+}
+
+.admin_menu {
   width: 90%;
 }
 
@@ -700,44 +714,4 @@ iframe {
 .admin_login:hover {
   transform: scale(1.1);
   background-color: #ffffff;
-}
-
-/*Footer adminpagina*/
-.admin_logout {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-decoration: none;
-  margin: 10px;
-  color: #ffffff;
-}
-
-.admin_page_logout {
-  background-color: #fafafa94;
-  width: 5%;
-  height: 30px;
-  border-radius: 4px;
-  cursor: pointer;
-  border: none;
-  transition: all 0.2s ease-in-out;
-}
-.admin_login:hover {
-  transform: scale(1.1);
-  background-color: #ffffff;
-}
-
-@media only screen and (max-width: 650px) {
-  footer {
-    top: 300px;
-  }
-
-  .admin_login {
-    width: 10%;
-  }
-}
-
-@media only screen and (max-width: 410px) {
-  .admin_login {
-    width: 15%;
-  }
 }

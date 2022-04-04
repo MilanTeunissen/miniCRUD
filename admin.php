@@ -20,17 +20,41 @@
   <body background="images/pizza.jpg">
     <main>
         <div class="base">
-          
-            <div class="admin_menu">
-              <table>
-                  <tr>
-                      <th>gerecht</th>
-                      <th>bescrhijving</th>
-                      <th>Prijs</th>
-                  </tr>
-                  <?php include("includes/table.php") ?>
-              </table>
-            </div> 
+          <div class="admin-pagina">
+            <div class="add-modify-delete-menu">
+              <button>toevoegen</button>
+              <button>wijzig</button>
+              <button>verwijder</button>
+            </div>
+              <div class="admin_menu">
+                <table>
+                    <tr>
+                        <th>gerecht</th>
+                        <th>bescrhijving</th>
+                        <th>Prijs</th>
+                    </tr>
+                    <?php include("includes/table.php") ?>
+                </table>
+              </div> 
+              <div class="add-modify-delete-resevering">
+              <button>toevoegen</button>
+              <button>wijzig</button>
+              <button>verwijder</button>
+            </div>
+              <div class="admin_resevering">
+                <table>
+                    <tr>
+                        <th>Naam</th>
+                        <th>E-mail</th>
+                        <th>aantal</th>
+                        <th>datum</th>
+                        <th>tijdstip</th>
+                        <th>bijzonderheden</th>
+                    </tr>
+                    <?php include("includes/resevering.php") ?>
+                </table>
+              </div> 
+          </div>
         </div>
     </main>
   </body>
