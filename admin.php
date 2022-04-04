@@ -27,11 +27,7 @@
                     <th>bescrhijving</th>
                     <th>Prijs</th>
                 </tr>
-                <tr>
-                    <td>test</td>
-                    <td>een lekkere pizza met kaas en peperoni</td>
-                    <td>testprijs</td>
-                </tr>
+                <?php include("includes/table.php") ?>
             </table>
             </div> 
         </div>

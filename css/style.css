@@ -577,6 +577,10 @@ main .inlog_block button:hover {
 }
 /*admin pagina*/
 
+main .base .admin_menu table {
+  width: 80%;
+}
+
 td,
 th {
   border: 1px solid #000000;
@@ -672,6 +676,32 @@ iframe {
   width: 100%;
 }
 
+
+.button_admin_login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  margin: 10px;
+  color: #ffffff;
+}
+
+.admin_login,
+.admin_logout {
+  background-color: #fafafa94;
+  width: 5%;
+  height: 30px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  transition: all 0.2s ease-in-out;
+}
+.admin_login:hover {
+  transform: scale(1.1);
+  background-color: #ffffff;
+}
+
+/*Footer adminpagina*/
 .button_admin {
   display: flex;
   justify-content: center;
