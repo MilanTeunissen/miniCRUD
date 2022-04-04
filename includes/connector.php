@@ -21,3 +21,4 @@ catch (PDOException $e)
     echo $e->getMessage();
     die("Er is iets mis met de database/verbinding");
 }
+

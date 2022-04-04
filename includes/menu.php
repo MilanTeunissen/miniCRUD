@@ -15,3 +15,6 @@ $result = $stmt->fetchAll();
         echo   "<button class='cart'>Bestellen</button>";
         echo   "</div>";    
     }
+
+
+    
