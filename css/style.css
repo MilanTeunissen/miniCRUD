@@ -526,7 +526,6 @@ main .inlog_block H1 {
   position: relative;
   flex-direction: column;
   align-items: center;
-  text-align: center;
   top: 110px;
   height: 500px;
   width: 30%;
@@ -541,7 +540,7 @@ main .inlog_block H1 {
   padding: 15px;
 }
 
-.inlog_button {
+main .inlog_block button {
   background-color: #fafafa94;
   margin-top: 2%;
   max-width: 40%;
@@ -553,7 +552,7 @@ main .inlog_block H1 {
   transition: all 0.2s ease-in-out;
   border: none;
 }
-.inlog_button:hover {
+main .inlog_block button:hover {
   transform: scale(1.1);
   background-color: #ffffff;
 }
@@ -590,8 +589,8 @@ th {
   text-align: left;
   padding: 8px;
 }
-
 /*Footer*/
+
 footer {
   position: relative;
   width: 100%;
@@ -677,6 +676,7 @@ iframe {
   width: 100%;
 }
 
+
 .button_admin_login {
   display: flex;
   flex-direction: column;
@@ -702,16 +702,14 @@ iframe {
 }
 
 /*Footer adminpagina*/
-.admin_logout {
+.button_admin {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: center;
   text-decoration: none;
-  margin: 10px;
   color: #ffffff;
 }
 
-.admin_page_logout {
+.admin_login {
   background-color: #fafafa94;
   width: 5%;
   height: 30px;
