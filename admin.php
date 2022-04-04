@@ -19,7 +19,7 @@
   </head>
   <body background="images/pizza.jpg">
     <main>
-        <div class="base">
+        <div class="base-admin">
           <div class="admin-pagina">
             <div class="add-modify-delete-menu">
               <button>toevoegen</button>
