@@ -20,15 +20,16 @@
   <body background="images/pizza.jpg">
     <main>
         <div class="base">
+          
             <div class="admin_menu">
-            <table>
-                <tr>
-                    <th>gerecht</th>
-                    <th>bescrhijving</th>
-                    <th>Prijs</th>
-                </tr>
-                <?php include("includes/table.php") ?>
-            </table>
+              <table>
+                  <tr>
+                      <th>gerecht</th>
+                      <th>bescrhijving</th>
+                      <th>Prijs</th>
+                  </tr>
+                  <?php include("includes/table.php") ?>
+              </table>
             </div> 
         </div>
     </main>
