@@ -20,11 +20,10 @@
   <body background="images/pizza.jpg">
     <main>
         <div class="base-admin">
+          <a href="index.php"><button>Home</button></a>
           <div class="admin-pagina">
             <div class="add-modify-delete-menu">
-              <button>toevoegen</button>
-              <button>wijzig</button>
-              <button>verwijder</button>
+            <h1>Menu</h1>
             </div>
               <div class="admin_menu">
                 <table>
@@ -32,14 +31,13 @@
                         <th>gerecht</th>
                         <th>bescrhijving</th>
                         <th>Prijs</th>
+                        <th><button>toevoegen</button></th>
                     </tr>
                     <?php include("includes/table.php") ?>
                 </table>
               </div> 
               <div class="add-modify-delete-resevering">
-              <button>toevoegen</button>
-              <button>wijzig</button>
-              <button>verwijder</button>
+            <h1>Reseveringen</h1>
             </div>
               <div class="admin_resevering">
                 <table>
@@ -50,6 +48,7 @@
                         <th>datum</th>
                         <th>tijdstip</th>
                         <th>bijzonderheden</th>
+                        <th><button>toevoegen</button></th>
                     </tr>
                     <?php include("includes/resevering.php") ?>
                 </table>

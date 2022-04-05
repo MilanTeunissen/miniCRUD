@@ -14,5 +14,7 @@ $result = $stmt->fetchAll();
         echo   "<td>" . $result ['datum']."</td>";
         echo   "<td>" . $result ['tijd']."</td>";
         echo   "<td>" . $result ['bijzonderheden']."</td>";
+        echo   "<td><button>wijzigen</button></td>";
+        echo   "<td><button>verwijderen</button></td>";
         echo   "</tr>"; 
     }
