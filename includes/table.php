@@ -13,7 +13,7 @@ $result = $stmt->fetchAll();
         echo   "<td>" . $result['naam'] ."</td>";
         echo   "<td>" . $result['beschrijving'] ."</td>";
         echo   "<td>€" . $roundedPrice ."</td>";
-        echo   "<td><button>wijzigen</button></td>";
+        echo   "<th><a href='menu-wijzigen.php?id=" . $result['ID'] . "&naam=" . $result['naam'] . "&beschrijving=" . $result['beschrijving'] . "&prijs=" . $roundedPrice . "'><button>wijzigen</button></a></th>"; 
         echo   "<td><a href='includes/delete.php?id=" . $result['ID'] . "&dataTable=" . $dataTable . "'><button>verwijderen</button></td>";
         echo   "</tr>"; 
     }

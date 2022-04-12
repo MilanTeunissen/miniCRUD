@@ -24,15 +24,15 @@
     <main>
       <div class="inlog_block">
             <H1>inloggen</H1>
-            <form class="form_inlog">
+            <form class="form_inlog" action="includes/login.php" method="POST">
                 <div class="inlog_style">
                     <p>Username</p>
                     <input type="text" name="username" placeholder="username">
                     <p>Wachtwoord</p>
                     <input type="text" name="wachtwoord" placeholder="wachtwoord">
                 </div>
+                <button class="inlog_button" name="inlogSubmit">inloggen</button>
             </from>
-            <button>Login</button>
       </div>
     </main>
     <?php

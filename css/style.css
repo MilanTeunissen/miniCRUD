@@ -6,6 +6,10 @@
   font-family: "Roboto", sans-serif;
 }
 
+main {
+  padding: 5%;
+}
+
 body {
   margin: 0;
   min-height: 100vh;
@@ -526,8 +530,8 @@ main .inlog_block H1 {
   display: flex;
   position: relative;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  text-align: center;
   top: 110px;
   height: 500px;
   width: 30%;
@@ -536,13 +540,16 @@ main .inlog_block H1 {
   outline: 3px solid black;
 }
 
-.form_inlog .inlog_style {
-  width: 50%;
+.form_inlog,
+.inlog_style {
+  width: 70%;
   margin: 2px;
   padding: 15px;
 }
 
 .inlog_button {
+  display: flex;
+  justify-content: center;
   background-color: #fafafa94;
   margin-top: 2%;
   max-width: 40%;
@@ -577,6 +584,47 @@ main .inlog_block H1 {
     width: 80%;
   }
 }
+
+/*menu toevoegen pagina*/
+
+main .add-menu form {
+  width: 90%;
+}
+
+main .add-menu h1 {
+  padding: 5px;
+}
+
+.add-menu {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 550px;
+  width: 30%;
+  color: white;
+  background-color: #882322;
+  outline: 3px solid black;
+}
+
+main .add .form input {
+  width: 80%;
+}
+
+.add {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 550px;
+  width: 30%;
+  color: white;
+  background-color: #882322;
+  outline: 3px solid black;
+}
+
 /*admin pagina*/
 
 .base-admin {
@@ -725,8 +773,10 @@ iframe {
   width: 100%;
 }
 
-.button_admin_login {
+.button_admin {
   display: flex;
+  position: relative;
+  bottom: 20px;
   flex-direction: column;
   align-items: center;
   text-decoration: none;
@@ -734,8 +784,7 @@ iframe {
   color: #ffffff;
 }
 
-.admin_login,
-.admin_logout {
+.admin_login {
   background-color: #fafafa94;
   width: 5%;
   height: 30px;
@@ -744,6 +793,7 @@ iframe {
   border: none;
   transition: all 0.2s ease-in-out;
 }
+
 .admin_login:hover {
   transform: scale(1.1);
   background-color: #ffffff;

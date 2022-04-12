@@ -1,3 +1,4 @@
+<?php include("includes/session.php"); ?>
 -<!DOCTYPE html>
 <html lang="en">
   <head>
@@ -20,7 +21,7 @@
   <body background="images/pizza.jpg">
     <main>
         <div class="base-admin">
-          <a href="index.php"><button>Home</button></a>
+          <a href="Includes/logout.php"><button>Uitloggen</button></a>
           <div class="admin-pagina">
             <div class="add-modify-delete-menu">
             <h1>Menu</h1>
@@ -31,7 +32,7 @@
                         <th>gerecht</th>
                         <th>bescrhijving</th>
                         <th>Prijs</th>
-                        <th><button>toevoegen</button></th>
+                        <th><a href="menu-toevoegen.php"><button>toevoegen</button></a></th>
                     </tr>
                     <?php include("includes/table.php") ?>
                 </table>

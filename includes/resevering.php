@@ -1,5 +1,6 @@
 <?php 
 require_once("includes/connector.php");
+$dataTable = "resevering";
 $sql = "select * FROM resevering";
 $stmt = $connect->prepare($sql);
 $stmt->execute();
@@ -14,7 +15,6 @@ $result = $stmt->fetchAll();
         echo   "<td>" . $result ['datum']."</td>";
         echo   "<td>" . $result ['tijd']."</td>";
         echo   "<td>" . $result ['bijzonderheden']."</td>";
-        echo   "<td><button>wijzigen</button></td>";
-        echo   "<td><button>verwijderen</button></td>";
+        echo   "<td><a href='includes/delete.php?id=" . $result['ID'] . "&dataTable=" . $dataTable . "'><button>verwijderen</button></td>";
         echo   "</tr>"; 
     }
