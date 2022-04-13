@@ -49,7 +49,7 @@
                         <th>datum</th>
                         <th>tijdstip</th>
                         <th>bijzonderheden</th>
-                        <th><button>toevoegen</button></th>
+                        <th><a href="resevering-toevoegen.php"><button>toevoegen</button></a></th>
                     </tr>
                     <?php include("includes/resevering.php") ?>
                 </table>

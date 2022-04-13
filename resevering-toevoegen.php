@@ -18,14 +18,10 @@
     <title>miniCRUD reseveren</title>
   </head>
   <body background="images/pizza.jpg">
-    <?php
-      include ('includes/header.php');
-    ?>
     <main>
-      <div class="base">
-        <div class="reseveren">
-          <h1>Resevering plaatsen</h1>
-          <form
+      <div class="reseveren">
+        <h1>Resevering toevoegen</h1>
+        <form
           class="form_reseveren"
           action="Includes/resevering-toevoegen-backend.php"
           method="POST"
@@ -56,11 +52,7 @@
             Reseveren
           </button>
         </form>
-        </div>
       </div>
     </main>
-    <?php
-      include ('includes/footer.php');
-    ?>
   </body>
 </html>
