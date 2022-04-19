@@ -29,7 +29,7 @@
           </form>
         </div>
         <div class="Menu_items">
-          <?php include("includes/menu.php"); ?>
+          <?php include("includes/search.php") ?>
         </div>
       </div>
     </main>
@@ -39,3 +39,4 @@
     ?>
   </body>
 </html>
+
