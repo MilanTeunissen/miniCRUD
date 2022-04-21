@@ -8,7 +8,7 @@ if (isset($_GET['searchInput'])) {
     $stmt = $connect->prepare($sql);
     $stmt->bindParam(":input", $likeInput);
     $stmt->bindParam(":input2", $likeInput);
-    $stmt->execute();
+    $stmt->execute();   
     $results = $stmt->fetchAll();
 
     $gerechtenSearch = false;
