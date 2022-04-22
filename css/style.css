@@ -532,30 +532,33 @@ main .base .about .about_text p {
 /*Inlog page*/
 
 main .inlog_block H1 {
-  padding-top: 10px;
   display: flex;
   text-align: center;
 }
 
 .inlog_block {
   display: flex;
-  position: relative;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  top: 110px;
-  height: 500px;
+  position: relative;
   width: 30%;
+  top: 8vh;
   color: white;
   background-color: #882322;
   outline: 3px solid black;
+  padding: 2.5%;
+  gap: 2rem;
 }
 
 .form_inlog,
 .inlog_style {
-  width: 70%;
-  margin: 2px;
-  padding: 15px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+font-size: 1.1em;
+gap: 1rem;
 }
 
 .inlog_button {
