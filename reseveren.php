@@ -42,7 +42,7 @@
               min="1"
               max="10"
             />
-            <input type="Date" name="datum" />
+            <input type="Date" name="datum" id="datumForm"/>
             <input type="Time" name="tijd" />
           </div>
           <div class="bijzonderheden">
@@ -62,5 +62,6 @@
     <?php
       include ('includes/footer.php');
     ?>
+    <script src="javascript/CRUD.js"></script>
   </body>
 </html>
